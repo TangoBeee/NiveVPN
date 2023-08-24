@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageHead"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/no_spy"
+        android:paddingHorizontal="10dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/onboarding_image" />
+
+    <TextView
+        android:id="@+id/onboardingHeaderTV"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="wrap_content"
+        android:text="@string/onboard_head1"
+        android:textSize="33sp"
+        android:textColor="?attr/onboardingHeaderColor"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageHead" />
+
+    <TextView
+        android:id="@+id/onboardingDescriptionTV"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="wrap_content"
+        android:text="@string/onboard_description1"
+        android:textSize="16sp"
+        android:textColor="?attr/onboardingHeaderColor"
+        android:letterSpacing="0.05"
+        android:fontFamily="@font/poppins"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/onboardingHeaderTV"
+        app:layout_constraintStart_toStartOf="@+id/onboardingHeaderTV"
+        app:layout_constraintTop_toBottomOf="@+id/onboardingHeaderTV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

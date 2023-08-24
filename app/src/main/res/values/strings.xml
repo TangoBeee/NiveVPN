@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NiveVPN</string>
+
+    <string name="splash_logo_description">Application Logo</string>
+    <string name="splash_screen_footer">Secure by Nive</string>
+
+    <string name="onboard_head1">Fastest And Secure Browsing</string>
+    <string name="onboard_description1">You can do the anonymous and secure browsing With Nive</string>
+
+    <string name="onboard_head2">Hide And Save Your Location</string>
+    <string name="onboard_description2">Hide Your Identity Is Easier With The NiveVPN App The Best.</string>
+
+    <string name="onboard_head3">World Biggest Powerful Servers</string>
+    <string name="onboard_description3">We Have The World Biggest Powerful IP Servers.</string>
+
+    <string name="onboarding_image">OnBoarding Image</string>
+    <string name="onboard_next_button">Next Button</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
